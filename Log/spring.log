@@ -1,29 +1,131 @@
-2024-03-01T18:41:11.497+03:30  INFO 11196 --- [main] c.e.s.SpringBootFilterApplication        : Starting SpringBootFilterApplication using Java 17.0.8 with PID 11196 (D:\developer\Spring_Boot_Filter\SpringBootFilter\target\classes started by User in D:\developer\Spring_Boot_Filter\SpringBootFilter)
-2024-03-01T18:41:11.500+03:30  INFO 11196 --- [main] c.e.s.SpringBootFilterApplication        : No active profile set, falling back to 1 default profile: "default"
-2024-03-01T18:41:12.301+03:30  INFO 11196 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
-2024-03-01T18:41:12.333+03:30  INFO 11196 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 0 Elasticsearch repository interfaces.
-2024-03-01T18:41:12.348+03:30  INFO 11196 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
-2024-03-01T18:41:12.352+03:30  INFO 11196 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 Reactive Elasticsearch repository interfaces.
-2024-03-01T18:41:12.818+03:30  INFO 11196 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-03-01T18:41:12.843+03:30  INFO 11196 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-03-01T18:41:12.844+03:30  INFO 11196 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
-2024-03-01T18:41:12.909+03:30  INFO 11196 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-03-01T18:41:12.910+03:30  INFO 11196 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1367 ms
-2024-03-01T18:41:13.604+03:30  WARN 11196 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+2024-03-01T19:09:22.314+03:30  INFO 20692 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-01T19:09:22.315+03:30  INFO 20692 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-01T19:09:22.317+03:30  INFO 20692 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-03-01T19:09:22.821+03:30  INFO 20692 --- [http-nio-8080-exec-2] c.e.s.f.RequestResponseLoggingFilter     : Order(2): Logging Request in RequestResponseLoggingFilter class  GET : /hellousers
+2024-03-01T19:09:22.881+03:30  INFO 20692 --- [http-nio-8080-exec-2] c.e.s.f.RequestResponseLoggingFilter     : Order(2): Logging Response in RequestResponseLoggingFilter class text/plain;charset=UTF-8
+2024-03-01T19:09:53.344+03:30  INFO 20692 --- [http-nio-8080-exec-4] c.e.s.f.RequestResponseLoggingFilter     : Order(2): Logging Request in RequestResponseLoggingFilter class  GET : /hellousers
+2024-03-01T19:09:53.345+03:30  INFO 20692 --- [http-nio-8080-exec-4] c.e.s.f.RequestResponseLoggingFilter     : Order(2): Logging Response in RequestResponseLoggingFilter class text/plain;charset=UTF-8
+2024-03-01T19:11:08.820+03:30  INFO 29656 --- [main] c.e.s.SpringBootFilterApplication        : Starting SpringBootFilterApplication using Java 17.0.8 with PID 29656 (D:\developer\Spring_Boot_Filter\SpringBootFilter\target\classes started by User in D:\developer\Spring_Boot_Filter\SpringBootFilter)
+2024-03-01T19:11:08.824+03:30  INFO 29656 --- [main] c.e.s.SpringBootFilterApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-03-01T19:11:09.485+03:30  INFO 29656 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2024-03-01T19:11:09.500+03:30  INFO 29656 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 Elasticsearch repository interfaces.
+2024-03-01T19:11:09.506+03:30  INFO 29656 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2024-03-01T19:11:09.509+03:30  INFO 29656 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2024-03-01T19:11:09.910+03:30  INFO 29656 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-03-01T19:11:09.919+03:30  INFO 29656 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-01T19:11:09.919+03:30  INFO 29656 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-01T19:11:09.971+03:30  INFO 29656 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-01T19:11:09.972+03:30  INFO 29656 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1105 ms
+2024-03-01T19:11:10.632+03:30  WARN 29656 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
 
-Using generated security password: ff09bdc4-2caf-442f-88a1-190ad55bbbc5
+Using generated security password: 8bc0280d-7c79-46a1-b3e5-ec54e85789ca
 
 This generated password is for development use only. Your security configuration must be updated before running your application in production.
 
-2024-03-01T18:41:13.690+03:30  INFO 11196 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@28554ac8, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@72224107, org.springframework.security.web.context.SecurityContextHolderFilter@1b31af02, org.springframework.security.web.header.HeaderWriterFilter@aa752bb, org.springframework.web.filter.CorsFilter@394fb736, org.springframework.security.web.csrf.CsrfFilter@55c50f52, org.springframework.security.web.authentication.logout.LogoutFilter@33627576, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@66d3b881, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@6c995c5d, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@3070f3e6, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4e3283f6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3c16528d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2e45a357, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3271ec2a, org.springframework.security.web.access.ExceptionTranslationFilter@4a9b3956, org.springframework.security.web.access.intercept.AuthorizationFilter@795f6681]
-2024-03-01T18:41:13.739+03:30  INFO 11196 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
-2024-03-01T18:41:13.750+03:30  INFO 11196 --- [main] c.e.s.SpringBootFilterApplication        : Started SpringBootFilterApplication in 2.691 seconds (process running for 3.287)
-2024-03-01T18:45:58.712+03:30  INFO 11196 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-03-01T18:45:58.713+03:30  INFO 11196 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-03-01T18:45:58.714+03:30  INFO 11196 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2024-03-01T18:45:58.943+03:30  INFO 11196 --- [http-nio-8080-exec-2] c.e.s.f.RequestResponseLoggingFilter     : Order(1): Starting a transaction for req in TransactionFilter class : /hello
-2024-03-01T18:45:58.944+03:30  INFO 11196 --- [http-nio-8080-exec-2] c.e.s.f.RequestResponseLoggingFilter     : Order(2): Logging Request in RequestResponseLoggingFilter class  GET : /hello
-2024-03-01T18:45:58.944+03:30  INFO 11196 --- [http-nio-8080-exec-2] c.e.s.f.RequestResponseLoggingFilter     : Order(3): Logging Request in IpFilter class  GET : /hello
-2024-03-01T18:45:58.970+03:30  INFO 11196 --- [http-nio-8080-exec-2] c.e.s.f.RequestResponseLoggingFilter     : Order(3): Logging Response in IpFilter class text/plain;charset=UTF-8 :
-2024-03-01T18:45:58.972+03:30  INFO 11196 --- [http-nio-8080-exec-2] c.e.s.f.RequestResponseLoggingFilter     : Order(2): Logging Response in RequestResponseLoggingFilter class text/plain;charset=UTF-8
-2024-03-01T18:45:58.972+03:30  INFO 11196 --- [http-nio-8080-exec-2] c.e.s.f.RequestResponseLoggingFilter     : Order(1): Committing a transaction for req in TransactionFilter class: text/plain;charset=UTF-8
+2024-03-01T19:11:10.721+03:30  INFO 29656 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2d4fb0d8, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@dc1fadd, org.springframework.security.web.context.SecurityContextHolderFilter@394fb736, org.springframework.security.web.header.HeaderWriterFilter@5d1a859c, org.springframework.web.filter.CorsFilter@3ef3f661, org.springframework.security.web.csrf.CsrfFilter@5c53c235, org.springframework.security.web.authentication.logout.LogoutFilter@52d7ab79, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3bd08435, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@4fc6e776, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@baa9ce4, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4e4894d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3271ec2a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@52bba91a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5b332439, org.springframework.security.web.access.ExceptionTranslationFilter@4e3283f6, org.springframework.security.web.access.intercept.AuthorizationFilter@c0c8f96]
+2024-03-01T19:11:10.774+03:30  INFO 29656 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-03-01T19:11:10.785+03:30  INFO 29656 --- [main] c.e.s.SpringBootFilterApplication        : Started SpringBootFilterApplication in 2.362 seconds (process running for 2.929)
+2024-03-01T19:11:17.301+03:30  INFO 29656 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-01T19:11:17.302+03:30  INFO 29656 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-01T19:11:17.303+03:30  INFO 29656 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-03-01T19:11:42.703+03:30  INFO 29656 --- [http-nio-8080-exec-4] c.e.s.f.RequestResponseLoggingFilter     : Order(2): Logging Request in RequestResponseLoggingFilter class  GET : /hellousers
+2024-03-01T19:11:42.705+03:30  INFO 29656 --- [http-nio-8080-exec-4] c.e.s.f.RequestResponseLoggingFilter     : Order(3): Logging Request in IpFilter class  GET : /hellousers
+2024-03-01T19:11:42.705+03:30  INFO 29656 --- [http-nio-8080-exec-4] c.e.s.f.RequestResponseLoggingFilter     : Order(1): Starting a transaction for req in TransactionFilter class : /hellousers
+2024-03-01T19:11:42.705+03:30  INFO 29656 --- [http-nio-8080-exec-4] c.e.s.f.RequestResponseLoggingFilter     : Order(2): Logging Request in RequestResponseLoggingFilter class  GET : /hellousers
+2024-03-01T19:11:42.731+03:30  INFO 29656 --- [http-nio-8080-exec-4] c.e.s.f.RequestResponseLoggingFilter     : Order(2): Logging Response in RequestResponseLoggingFilter class text/plain;charset=UTF-8
+2024-03-01T19:11:42.732+03:30  INFO 29656 --- [http-nio-8080-exec-4] c.e.s.f.RequestResponseLoggingFilter     : Order(1): Committing a transaction for req in TransactionFilter class: text/plain;charset=UTF-8
+2024-03-01T19:11:42.732+03:30  INFO 29656 --- [http-nio-8080-exec-4] c.e.s.f.RequestResponseLoggingFilter     : Order(3): Logging Response in IpFilter class text/plain;charset=UTF-8 :
+2024-03-01T19:11:42.732+03:30  INFO 29656 --- [http-nio-8080-exec-4] c.e.s.f.RequestResponseLoggingFilter     : Order(2): Logging Response in RequestResponseLoggingFilter class text/plain;charset=UTF-8
+2024-03-01T19:13:18.418+03:30  INFO 16576 --- [main] c.e.s.SpringBootFilterApplication        : Starting SpringBootFilterApplication using Java 17.0.8 with PID 16576 (D:\developer\Spring_Boot_Filter\SpringBootFilter\target\classes started by User in D:\developer\Spring_Boot_Filter\SpringBootFilter)
+2024-03-01T19:13:18.420+03:30  INFO 16576 --- [main] c.e.s.SpringBootFilterApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-03-01T19:13:19.023+03:30  INFO 16576 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2024-03-01T19:13:19.038+03:30  INFO 16576 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 Elasticsearch repository interfaces.
+2024-03-01T19:13:19.045+03:30  INFO 16576 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2024-03-01T19:13:19.048+03:30  INFO 16576 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2024-03-01T19:13:19.497+03:30  INFO 16576 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-03-01T19:13:19.507+03:30  INFO 16576 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-01T19:13:19.507+03:30  INFO 16576 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-01T19:13:19.586+03:30  INFO 16576 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-01T19:13:19.587+03:30  INFO 16576 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1120 ms
+2024-03-01T19:13:20.270+03:30  WARN 16576 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: e3efbc5f-a420-4b0b-850a-77e3dd730539
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-03-01T19:13:20.368+03:30  INFO 16576 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@dc1fadd, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3ef3f661, org.springframework.security.web.context.SecurityContextHolderFilter@3070f3e6, org.springframework.security.web.header.HeaderWriterFilter@28554ac8, org.springframework.web.filter.CorsFilter@baa9ce4, org.springframework.security.web.csrf.CsrfFilter@2dcd0e41, org.springframework.security.web.authentication.logout.LogoutFilter@f95d64d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3e52ed5d, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@65d9e72a, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5b332439, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1de5cc88, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@52bba91a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1689527c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@59262a90, org.springframework.security.web.access.ExceptionTranslationFilter@539316bb, org.springframework.security.web.access.intercept.AuthorizationFilter@3bd08435]
+2024-03-01T19:13:20.427+03:30  INFO 16576 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-03-01T19:13:20.436+03:30  INFO 16576 --- [main] c.e.s.SpringBootFilterApplication        : Started SpringBootFilterApplication in 2.437 seconds (process running for 3.084)
+2024-03-01T19:13:31.566+03:30  INFO 16576 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-01T19:13:31.566+03:30  INFO 16576 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-01T19:13:31.568+03:30  INFO 16576 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-03-01T19:13:32.056+03:30  INFO 16576 --- [http-nio-8080-exec-1] c.e.s.f.RequestResponseLoggingFilter     : Order(3): Logging Request in RequestResponseLoggingFilter class  GET : /hellousers
+2024-03-01T19:13:32.059+03:30  INFO 16576 --- [http-nio-8080-exec-1] c.e.s.f.RequestResponseLoggingFilter     : Order(1): Logging Request in IpFilter class  GET : /hellousers
+2024-03-01T19:13:32.059+03:30  INFO 16576 --- [http-nio-8080-exec-1] c.e.s.f.RequestResponseLoggingFilter     : Order(2): Starting a transaction for req in TransactionFilter class : /hellousers
+2024-03-01T19:13:32.059+03:30  INFO 16576 --- [http-nio-8080-exec-1] c.e.s.f.RequestResponseLoggingFilter     : Order(3): Logging Request in RequestResponseLoggingFilter class  GET : /hellousers
+2024-03-01T19:13:32.116+03:30  INFO 16576 --- [http-nio-8080-exec-1] c.e.s.f.RequestResponseLoggingFilter     : Order(3): Logging Response in RequestResponseLoggingFilter class text/plain;charset=UTF-8
+2024-03-01T19:13:32.116+03:30  INFO 16576 --- [http-nio-8080-exec-1] c.e.s.f.RequestResponseLoggingFilter     : Order(2): Committing a transaction for req in TransactionFilter class: text/plain;charset=UTF-8
+2024-03-01T19:13:32.116+03:30  INFO 16576 --- [http-nio-8080-exec-1] c.e.s.f.RequestResponseLoggingFilter     : Order(1): Logging Response in IpFilter class text/plain;charset=UTF-8 :
+2024-03-01T19:13:32.116+03:30  INFO 16576 --- [http-nio-8080-exec-1] c.e.s.f.RequestResponseLoggingFilter     : Order(3): Logging Response in RequestResponseLoggingFilter class text/plain;charset=UTF-8
+2024-03-01T19:18:41.595+03:30  INFO 25028 --- [main] c.e.s.SpringBootFilterApplication        : Starting SpringBootFilterApplication using Java 17.0.8 with PID 25028 (D:\developer\Spring_Boot_Filter\SpringBootFilter\target\classes started by User in D:\developer\Spring_Boot_Filter\SpringBootFilter)
+2024-03-01T19:18:41.597+03:30  INFO 25028 --- [main] c.e.s.SpringBootFilterApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-03-01T19:18:42.233+03:30  INFO 25028 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2024-03-01T19:18:42.259+03:30  INFO 25028 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 0 Elasticsearch repository interfaces.
+2024-03-01T19:18:42.269+03:30  INFO 25028 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2024-03-01T19:18:42.272+03:30  INFO 25028 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2024-03-01T19:18:42.719+03:30  INFO 25028 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-03-01T19:18:42.730+03:30  INFO 25028 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-01T19:18:42.731+03:30  INFO 25028 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-01T19:18:42.786+03:30  INFO 25028 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-01T19:18:42.787+03:30  INFO 25028 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1143 ms
+2024-03-01T19:18:43.431+03:30  WARN 25028 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 45137fcb-3857-4d7d-ab82-7f97e6ce187b
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-03-01T19:18:43.553+03:30  INFO 25028 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2755617b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@65859b44, org.springframework.security.web.context.SecurityContextHolderFilter@13004dd8, org.springframework.security.web.header.HeaderWriterFilter@1689527c, org.springframework.web.filter.CorsFilter@d9f5fce, org.springframework.security.web.csrf.CsrfFilter@66d3b881, org.springframework.security.web.authentication.logout.LogoutFilter@66b0e207, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3e74fd84, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@32da97fd, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@49653791, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5b332439, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@65d9e72a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1f7e52d1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@45b7c97f, org.springframework.security.web.access.ExceptionTranslationFilter@3271ec2a, org.springframework.security.web.access.intercept.AuthorizationFilter@482a58c7]
+2024-03-01T19:18:43.643+03:30  INFO 25028 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-03-01T19:18:43.661+03:30  INFO 25028 --- [main] c.e.s.SpringBootFilterApplication        : Started SpringBootFilterApplication in 2.503 seconds (process running for 3.11)
+2024-03-01T19:19:17.840+03:30  INFO 25028 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-01T19:19:17.840+03:30  INFO 25028 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-01T19:19:17.841+03:30  INFO 25028 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-03-01T19:19:18.069+03:30  INFO 25028 --- [http-nio-8080-exec-1] c.e.s.f.RequestResponseLoggingFilter     : RequestResponseLoggingFilter: Logging Request in RequestResponseLoggingFilter class  GET : /hellousers
+2024-03-01T19:19:18.071+03:30  INFO 25028 --- [http-nio-8080-exec-1] c.e.s.f.RequestResponseLoggingFilter     : IpFilter: Logging Request in IpFilter class  GET : /hellousers
+2024-03-01T19:19:18.101+03:30  INFO 25028 --- [http-nio-8080-exec-1] c.e.s.f.RequestResponseLoggingFilter     : IpFilter: Logging Response in IpFilter class text/plain;charset=UTF-8 :
+2024-03-01T19:19:18.101+03:30  INFO 25028 --- [http-nio-8080-exec-1] c.e.s.f.RequestResponseLoggingFilter     : RequestResponseLoggingFilter: Logging Response in RequestResponseLoggingFilter class text/plain;charset=UTF-8
+2024-03-01T19:19:45.952+03:30  INFO 25028 --- [http-nio-8080-exec-3] c.e.s.f.RequestResponseLoggingFilter     : IpFilter: Logging Request in IpFilter class  GET : /helloworld
+2024-03-01T19:19:45.952+03:30  INFO 25028 --- [http-nio-8080-exec-3] c.e.s.f.RequestResponseLoggingFilter     : TransactionFilter: Starting a transaction for req in TransactionFilter class : /helloworld
+2024-03-01T19:19:45.954+03:30  INFO 25028 --- [http-nio-8080-exec-3] c.e.s.f.RequestResponseLoggingFilter     : TransactionFilter: Committing a transaction for req in TransactionFilter class: text/plain;charset=UTF-8
+2024-03-01T19:19:45.955+03:30  INFO 25028 --- [http-nio-8080-exec-3] c.e.s.f.RequestResponseLoggingFilter     : IpFilter: Logging Response in IpFilter class text/plain;charset=UTF-8 :
+2024-03-01T19:21:46.892+03:30  INFO 3328 --- [main] c.e.s.SpringBootFilterApplication        : Starting SpringBootFilterApplication using Java 17.0.8 with PID 3328 (D:\developer\Spring_Boot_Filter\SpringBootFilter\target\classes started by User in D:\developer\Spring_Boot_Filter\SpringBootFilter)
+2024-03-01T19:21:46.894+03:30  INFO 3328 --- [main] c.e.s.SpringBootFilterApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-03-01T19:21:47.609+03:30  INFO 3328 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2024-03-01T19:21:47.634+03:30  INFO 3328 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 0 Elasticsearch repository interfaces.
+2024-03-01T19:21:47.642+03:30  INFO 3328 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2024-03-01T19:21:47.646+03:30  INFO 3328 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2024-03-01T19:21:48.129+03:30  INFO 3328 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-03-01T19:21:48.138+03:30  INFO 3328 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-01T19:21:48.138+03:30  INFO 3328 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-01T19:21:48.190+03:30  INFO 3328 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-01T19:21:48.191+03:30  INFO 3328 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1260 ms
+2024-03-01T19:21:48.880+03:30  WARN 3328 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: e2c9ab8e-1ae6-4a73-b80b-7c8d6c9d2df0
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-03-01T19:21:48.967+03:30  INFO 3328 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@45984654, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4c5406b, org.springframework.security.web.context.SecurityContextHolderFilter@61911947, org.springframework.security.web.header.HeaderWriterFilter@5a3cf878, org.springframework.web.filter.CorsFilter@66b0e207, org.springframework.security.web.csrf.CsrfFilter@41a16eb3, org.springframework.security.web.authentication.logout.LogoutFilter@52bba91a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2049e582, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@66d3b881, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@74a58a06, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@288728e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2dcd0e41, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7272ee51, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7308c820, org.springframework.security.web.access.ExceptionTranslationFilter@1af677f8, org.springframework.security.web.access.intercept.AuthorizationFilter@4aa22cc2]
+2024-03-01T19:21:49.020+03:30  INFO 3328 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-03-01T19:21:49.030+03:30  INFO 3328 --- [main] c.e.s.SpringBootFilterApplication        : Started SpringBootFilterApplication in 2.708 seconds (process running for 3.308)
+2024-03-01T19:22:03.696+03:30  INFO 3328 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-01T19:22:03.697+03:30  INFO 3328 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-01T19:22:03.697+03:30  INFO 3328 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-03-01T19:22:03.950+03:30  INFO 3328 --- [http-nio-8080-exec-1] c.e.s.f.RequestResponseLoggingFilter     : RequestResponseLoggingFilter: Logging Request in RequestResponseLoggingFilter class  GET : /users
+2024-03-01T19:22:03.952+03:30  INFO 3328 --- [http-nio-8080-exec-1] c.e.s.f.RequestResponseLoggingFilter     : IpFilter: Logging Request in IpFilter class  GET : /users
+2024-03-01T19:22:03.985+03:30  INFO 3328 --- [http-nio-8080-exec-1] c.e.s.f.RequestResponseLoggingFilter     : IpFilter: Logging Response in IpFilter class text/plain;charset=UTF-8 :
+2024-03-01T19:22:03.986+03:30  INFO 3328 --- [http-nio-8080-exec-1] c.e.s.f.RequestResponseLoggingFilter     : RequestResponseLoggingFilter: Logging Response in RequestResponseLoggingFilter class text/plain;charset=UTF-8
+2024-03-01T19:22:19.526+03:30  INFO 3328 --- [http-nio-8080-exec-3] c.e.s.f.RequestResponseLoggingFilter     : IpFilter: Logging Request in IpFilter class  GET : /students
+2024-03-01T19:22:19.526+03:30  INFO 3328 --- [http-nio-8080-exec-3] c.e.s.f.RequestResponseLoggingFilter     : TransactionFilter: Starting a transaction for req in TransactionFilter class : /students
+2024-03-01T19:22:19.529+03:30  INFO 3328 --- [http-nio-8080-exec-3] c.e.s.f.RequestResponseLoggingFilter     : TransactionFilter: Committing a transaction for req in TransactionFilter class: text/plain;charset=UTF-8
+2024-03-01T19:22:19.529+03:30  INFO 3328 --- [http-nio-8080-exec-3] c.e.s.f.RequestResponseLoggingFilter     : IpFilter: Logging Response in IpFilter class text/plain;charset=UTF-8 :

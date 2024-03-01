@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 
 import java.io.IOException;
 @Component
-@Order(3)
+@Order(1)
 public class IpFilter implements Filter {
     Logger logger = LoggerFactory.getLogger(RequestResponseLoggingFilter.class);
 
@@ -22,13 +22,13 @@ public class IpFilter implements Filter {
 
 
         logger.info(
-                "Order(3): Logging Request in IpFilter class  {} : {}", req.getMethod(),
+                "IpFilter: Logging Request in IpFilter class  {} : {}", req.getMethod(),
                 req.getRequestURI());
 
         chain.doFilter(request, response);
 
         logger.info(
-                "Order(3): Logging Response in IpFilter class {} :", res.getContentType());
+                "IpFilter: Logging Response in IpFilter class {} :", res.getContentType());
     }
 }
 
